@@ -39,6 +39,7 @@ setup_adc_ports( ALL_ANALOG );
 
 while(true) // super loop
    {
+// Process audio buffer for beat detection using threshold comparison
  
   
 
