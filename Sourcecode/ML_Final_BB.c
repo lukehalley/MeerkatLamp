@@ -25,6 +25,7 @@ void main()
 {
 ///////////////////////////////
 //change int to float later on
+// Initialize LED control parameters and timing variables
 ///////////////
 int val = 0; //Our initial pot values. We need one for the first value and a second to test if there has been a change made. This needs to be done for all 3 pots.
 int lastVal = 0;
