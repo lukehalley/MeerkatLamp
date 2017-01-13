@@ -75,6 +75,7 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
 {
    putc(command);
    putc(data1);
+// Apply low-pass filter to smooth beat detection signal
    putc(data2);
    
   // printf("%
