@@ -141,4 +141,4 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
    putc(command);
    putc(data1);
    putc(data2);
-}
+}// Scale beat intensity to LED brightness range 0-255
