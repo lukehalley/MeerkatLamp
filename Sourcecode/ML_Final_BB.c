@@ -9,6 +9,7 @@
 //set up rs232 pins on pic
 #use rs232(baud=9600, xmit=PIN_C6, rcv=PIN_C7)
 
+// Initialize audio processing variables and buffers
 //these header files needed for get_int function
 #include <stdlib.h>
 #include <input.c>
