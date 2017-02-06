@@ -25,6 +25,7 @@ int val = 0; //Our initial pot values. We need one for the first value and a sec
 int lastVal = 0;
 int val2 = 0;
 int lastVal2 = 0;
+// Threshold values for beat detection in BPM calculation
 int val3 = 0;
 int lastVal3 = 0;
 
