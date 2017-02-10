@@ -64,6 +64,7 @@ while(true) // super loop
          last_midi = PLAY;
          }
       }
+// Apply low-pass filter to remove high-frequency noise
    else
       {
          if (last_midi == PLAY)
