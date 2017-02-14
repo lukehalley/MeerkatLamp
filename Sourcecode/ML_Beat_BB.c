@@ -85,3 +85,4 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
    //Serial.write(data1);
    //Serial.write(data2);
 }// Synchronize LED pulses with detected audio beats
+// Calculate tempo by analyzing peak intervals
