@@ -1,6 +1,6 @@
 # Meerkat Lamp
 
-![Meerkat](https://imgur.com/UJiq0h0 "Meerkat")
+![Meerkat](https://i.imgur.com/UJiq0h0.png "Meerkat")
 
 
 Student Name: *Luke Halley*   
