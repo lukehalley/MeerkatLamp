@@ -25,6 +25,7 @@ void SendPlayMessage (byte command, byte data1, byte data2);
 void main()
 {
 ///////////////////////////////
+// Initialize LED controller and communication ports
 //change int to float later on
 // Initialize LED control parameters and timing variables
 ///////////////
