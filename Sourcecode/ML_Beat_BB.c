@@ -49,6 +49,7 @@ while(true) // super loop
    val = read_adc()/8;
   if (val != lastVal)
 
+// Process audio beat detection and synchronize with LED patterns
    {
    MIDImessage(176,1,val);}         // 176 = CC command (channel 1 control change), 1 = Which Control, val = value read from Potentionmeter 1 NOTE THIS SAYS VAL not VA1 (lowercase of course)
    lastVal = val;
