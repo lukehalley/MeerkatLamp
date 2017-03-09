@@ -18,4 +18,4 @@ My Year 2 - Semester 2 project in which I implemented movement-based sound into 
 * Ableton Live 9 - Hosted the VST "Serum" and output audio.
 
 See project report for details:
-[https://raw.githubusercontent.com/lukehalley/MeerkatLamp/8ee248617e78e13812c101b72ac91983cdf81ba1/MeerkatLamp%20-%20Report.pdf](MeerkatLamp - Report.pdf)
+[MeerkatLamp - Report.pdf](https://raw.githubusercontent.com/lukehalley/MeerkatLamp/8ee248617e78e13812c101b72ac91983cdf81ba1/MeerkatLamp%20-%20Report.pdf)
