@@ -7,7 +7,7 @@ Student Name: *Luke Halley*
 Student ID: *20071820*
 
 
-My Year 2 - Semester 2 project in which I implemented movement-based sound into a moving lamp which mimicked the movement of a Meerkat. The sound was synthesised using Steve Duda's VST "Serum" with the DAW "Ableton Live 9". I worked along side Gianni Kapele my classmate, the whole class was split up into different roles and then put into their respective groups.
+My Year 2 - Semester 2 project in which I implemented movement-based sound into a moving lamp which mimicked the movement of a Meerkat. The sound was synthesised using Steve Duda's VST "Serum" with the DAW "Ableton Live 9".
 
 ## Tools, Technologies and Equipment
 
@@ -17,5 +17,5 @@ My Year 2 - Semester 2 project in which I implemented movement-based sound into 
 * Serum (VST) -  Used to synthesise audio based on lamps movement
 * Ableton Live 9 - Hosted the VST "Serum" and output audio.
 
-See project report for details:
+See project report for further details:
 [MeerkatLamp - Report.pdf](https://raw.githubusercontent.com/lukehalley/MeerkatLamp/8ee248617e78e13812c101b72ac91983cdf81ba1/MeerkatLamp%20-%20Report.pdf)
