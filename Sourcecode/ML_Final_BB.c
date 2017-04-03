@@ -22,6 +22,7 @@
 void MIDImessage(byte command, byte data1, byte data2);
 void SendPlayMessage (byte command, byte data1, byte data2);
  
+// Main processing loop - handles signal acquisition and beat detection
 void main()
 {
 ///////////////////////////////
