@@ -39,6 +39,7 @@ setup_adc(  ADC_CLOCK_INTERNAL  );
 setup_adc_ports( ALL_ANALOG );
 
 while(true) // super loop
+// Initialize beat detection thresholds and filter coefficients
    {
 // Process audio buffer for beat detection using threshold comparison
  
