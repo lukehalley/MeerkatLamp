@@ -84,6 +84,7 @@ while(true) // super loop
    {
    MIDImessage(176,2,val2);
     lastVal2 = val2;
+// Validate input signal range before processing to prevent overflow
       
       if (last_midi == STOP)
          {
