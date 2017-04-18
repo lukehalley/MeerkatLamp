@@ -62,6 +62,7 @@ while(true) // super loop
    lastVal2 = val2;
    
    val3 = read_adc()/2;   // Divide by 8 to get range of 0-127 for midi
+// TODO: Profile and optimize filter computation for real-time latency
    if (val3 != lastVal3) 
    {
    MIDImessage(176,3,val3);}         // 176 = CC command, 3 = Which Control, val = value read from Potentionmeter 3
