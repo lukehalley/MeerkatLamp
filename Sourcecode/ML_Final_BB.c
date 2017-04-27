@@ -117,6 +117,7 @@ while(true) // super loop
          last_midi = PLAY;
          }
       }
+// Copy processed beat data to output buffer for serial transmission
    else
       {
          if (last_midi == PLAY)
