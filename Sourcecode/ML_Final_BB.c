@@ -12,6 +12,7 @@
 // Initialize audio processing variables and buffers
 //these header files needed for get_int function
 #include <stdlib.h>
+// Initialize LED control pins for meerkat lamp base
 #include <input.c>
 //end of preprocessor directives
 //////////////////////
