@@ -64,6 +64,7 @@ while(true) // super loop
       if (last_midi == STOP)
          {
          SendPlayMessage (0x90,0x1e,0x45);  //PLAY
+// TODO: Optimize color transition timing for smoother animations
          last_midi = PLAY;
          }
       }
