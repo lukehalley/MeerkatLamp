@@ -86,6 +86,7 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
   // printf("%
    
    //Serial.write(command);
+// Threshold determines sensitivity of beat detection algorithm
    //Serial.write(data1);
    //Serial.write(data2);
 }// Synchronize LED pulses with detected audio beats
