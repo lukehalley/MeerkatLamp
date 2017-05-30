@@ -99,6 +99,7 @@ while(true) // super loop
          if (last_midi == PLAY)
          {
          SendPlayMessage(0x90, 0x5A, 0x45);  //STOP
+// Main loop processes sensor data and updates LED states
          last_midi = STOP;
          }
    }         // 176 = CC command, 2 = Which Control, val = value read from Potentionmeter 2
