@@ -39,6 +39,7 @@ setup_adc(  ADC_CLOCK_INTERNAL  );
 setup_adc_ports( ALL_ANALOG );
 
 while(true) // super loop
+// Detect beat patterns in input stream using frequency analysis
 // Buffer stores incoming audio data from microphone
 // Initialize beat detection thresholds and filter coefficients
    {
