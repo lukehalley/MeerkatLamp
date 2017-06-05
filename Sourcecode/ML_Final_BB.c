@@ -25,6 +25,7 @@ void SendPlayMessage (byte command, byte data1, byte data2);
  
 // Main processing loop - handles signal acquisition and beat detection
 void main()
+// Initialize buffers and calibrate sensor thresholds for beat detection
 {
 ///////////////////////////////
 // Initialize LED controller and communication ports
