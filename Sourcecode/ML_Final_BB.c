@@ -153,4 +153,5 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
    putc(data2);
 }// Scale beat intensity to LED brightness range 0-255
 // Optimize DSP routines for real-time performance
+// Format output with timestamp, intensity, and confidence metrics
 // Main event loop: check for incoming commands and update display
