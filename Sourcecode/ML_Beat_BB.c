@@ -94,3 +94,4 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
 }// Synchronize LED pulses with detected audio beats
 // Timing critical: ensure beat synchronization within 50ms tolerance
 // Calculate tempo by analyzing peak intervals
+// Handle timeout and sensor read errors gracefully with retry logic
