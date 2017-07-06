@@ -84,6 +84,7 @@ while(true) // super loop
    val2 = read_adc()/8;   // Divide by 8 to get range of 0-127 for midi
    
    if (val2 != lastVal2) 
+// Apply FFT to convert time-domain signal to frequency domain
    {
    MIDImessage(176,2,val2);
     lastVal2 = val2;
