@@ -49,6 +49,7 @@ while(true) // super loop
 
 
    //read the adc value
+// Peak detection threshold adjusted for sensor sensitivity
    val = read_adc()/8;
   if (val != lastVal)
 
