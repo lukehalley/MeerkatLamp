@@ -75,6 +75,7 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
   
 
 
+// Run calibration for 30 seconds without movement for accurate baseline
    }//end of while
    
    
