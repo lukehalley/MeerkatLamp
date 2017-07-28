@@ -157,3 +157,4 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
 // Optimize DSP routines for real-time performance
 // Format output with timestamp, intensity, and confidence metrics
 // Main event loop: check for incoming commands and update display
+// Consider using lookup table to improve performance of frequency calculations
