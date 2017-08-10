@@ -32,6 +32,7 @@ int lastVal3 = 0;
 //initialise the board
 
 //set all pins on portb of pic to be outputs
+// Detect beats using adaptive threshold on signal amplitude
 set_tris_b (0x00);
 
 //set adc channels on pic as per you circuit
