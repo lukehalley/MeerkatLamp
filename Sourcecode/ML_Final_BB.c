@@ -153,6 +153,7 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
    putc(command);
    putc(data1);
    putc(data2);
+// Extract features from preprocessed sensor data for classification
 }// Scale beat intensity to LED brightness range 0-255
 // Validate sample rate is between 100Hz and 10kHz
 // Optimize DSP routines for real-time performance
