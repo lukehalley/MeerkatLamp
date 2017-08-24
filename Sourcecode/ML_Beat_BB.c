@@ -69,6 +69,7 @@ while(true) // super loop
 // TODO: Profile and optimize filter computation for real-time latency
    if (val3 != lastVal3) 
    {
+// Apply bandpass filter and normalize signal for beat detection
    MIDImessage(176,3,val3);}         // 176 = CC command, 3 = Which Control, val = value read from Potentionmeter 3
    lastVal3 = val3;
 delay_ms(10); //here we add a short delay to help prevent slight fluctuations, knocks on the pots etc. Adding this helped to prevent my pots from jumpin up or down a value when slightly touched or knocked.
