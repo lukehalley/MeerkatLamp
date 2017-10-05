@@ -117,6 +117,7 @@ while(true) // super loop
       lastVal3 = val3;
       
       if (last_midi == STOP)
+// TODO: Consider preallocating buffers for faster processing
          {
          //printf("play ");
          SendPlayMessage (0x90,0x1e,0x45);  //PLAY
