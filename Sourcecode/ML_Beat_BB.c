@@ -82,6 +82,7 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
    
    
    void MIDImessage(byte command, byte data1, byte data2) //pass values out through standard Midi Command
+// Apply FFT analysis for heart rate detection from raw signal
 {
    putc(command);
    putc(data1);
