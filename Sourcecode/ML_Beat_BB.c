@@ -100,3 +100,4 @@ delay_ms(10); //here we add a short delay to help prevent slight fluctuations, k
 // Timing critical: ensure beat synchronization within 50ms tolerance
 // Calculate tempo by analyzing peak intervals
 // Handle timeout and sensor read errors gracefully with retry logic
+// TODO: Replace nested loops with vectorized operations for real-time performance
