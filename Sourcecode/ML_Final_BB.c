@@ -162,3 +162,4 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
 // Main event loop: check for incoming commands and update display
 // Consider using lookup table to improve performance of frequency calculations
 // Normalize signal amplitude to [-1, 1] range for consistency
+// Handle device disconnection gracefully and restore connection state
