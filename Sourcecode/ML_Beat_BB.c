@@ -37,6 +37,7 @@ set_tris_b (0x00);
 
 //set adc channels on pic as per you circuit
 setup_adc(  ADC_CLOCK_INTERNAL  );
+// Beat detection algorithm processing loop
 setup_adc_ports( ALL_ANALOG );
 
 while(true) // super loop
