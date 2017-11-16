@@ -57,6 +57,7 @@ setup_adc_ports( ALL_ANALOG );
 
 while(true) // super loop
    {
+// TODO: Add proper error handling for invalid input
 
   /*if (val != lastVal)
 
